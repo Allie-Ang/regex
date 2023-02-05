@@ -1,11 +1,13 @@
 # Regex - Tutorial
 
-> Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the `exec()` and `test()` methods of RegExp, and with the `match()`, `matchAll()`, `replace()`, `replaceAll()`, `search()`, and `split()` methods of String. This chapter describes JavaScript regular expressions. 
+> Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the `exec()` and `test()` methods of RegExp, and with the `match()`, `matchAll()`, `replace()`, `replaceAll()`, `search()`, and `split()` methods of String. This chapter describes JavaScript regular expressions.
 
     Source : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 ## Example
+
 #### `/\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}/g`
+
 This Regex Expression validates the users IP address.
 
 ## Table of Contents
@@ -21,33 +23,48 @@ This Regex Expression validates the users IP address.
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
-----
-## Regex Components
 
-### Anchors
+---
 
-### Quantifiers
+### **Regex Components**
 
-### OR Operator
+>A regex component that matches a specific condition at a particular position in an input string. struct Lookahead. A regex component that allows a match to continue only if its contents match at the given location.
 
-### Character Classes
+### **Anchors**
 
-### Flags
+>Anchors belong to the family of regex tokens that don't match any characters, but that assert something about the string or the matching process. Anchors assert that the engine's current position in the string matches a well-determined location: for instance, the beginning of the string, or the end of a line.
 
-### Grouping and Capturing
+### **Quantifiers**
 
-### Bracket Expressions
+>Quantifier in JavaScript is used to find the match of any string which is not followed by a specific string m.
 
-### Greedy and Lazy Match
+### **OR Operator**
+>Alternation is the term in regular expression that is actually a simple “OR”. In a regular expression it is denoted with a vertical line character `|`.
 
-### Boundaries
+>For instance, we need to find programming languages: HTML, PHP, Java or JavaScript.
 
-### Back-references
+### **Character Classes**
 
-### Look-ahead and Look-behind
+>Matches any one of the enclosed characters. You can specify a range of characters by using a hyphen, but if the hyphen appears as the first or last character enclosed in the square brackets, it is taken as a literal hyphen to be included in the character class as a normal character.
 
-----
+### **Flags**
+
+### **Grouping and Capturing**
+
+### **Bracket Expressions**
+
+### **Greedy and Lazy Match**
+
+### **Boundaries**
+
+### **Back-references**
+
+### **Look-ahead and Look-behind**
+
+---
+
 ## Author & Credit
+
 Allison Ang
 GitHub - https://github.com/Allie-Ang <br>
 LinkedIn - https://www.linkedin.com/in/allison-ang-a4959093/ </br>
