@@ -1,4 +1,4 @@
-# Regex - Tutorial
+b# Regex - Tutorial
 
 > Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the `exec()` and `test()` methods of RegExp, and with the `match()`, `matchAll()`, `replace()`, `replaceAll()`, `search()`, and `split()` methods of String. This chapter describes JavaScript regular expressions.
 
@@ -60,10 +60,14 @@ This Regex Expression validates the users IP address.
 >'Greedy' means match longest possible string. 'Lazy' means match shortest possible string
 
 ### **Boundaries**
+>The word boundary \b matches positions where one side is a word character (usually a letter, digit or underscore—but see below for variations across engines) and the other side is not a word character (for instance, it may be the beginning of the string or a space character).<br>
+>Word boundaries are useful when you want to match a sequence of letters (or digits) on their own, or to ensure that they occur at the beginning or the end of a sequence of characters.</br>
 
 ### **Back-references**
+>Backreferences refer to a previously captured group in the same regular expression.
 
 ### **Look-ahead and Look-behind**
+>Lookaheads are the patterns that ask JavaScript to look ahead in the string to check for intended patterns in the string. Lookahead and Lookbehind are together referred to as Lookaround. Using Lookaheads we can easily capture a particular group of characters only if they appear before another set of characters
 
 ---
 
