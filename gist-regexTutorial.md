@@ -86,6 +86,8 @@ This Regex Expression is for quote matching with escape.
 
 > Lookaheads are the patterns that ask JavaScript to look ahead in the string to check for intended patterns in the string. Lookahead and Lookbehind are together referred to as Lookaround. Using Lookaheads we can easily capture a particular group of characters only if they appear before another set of characters
 
+    Positive look ahead
+/(["'])((?:`(?=(?:\\)*)`\\.|.)*?)\1/gm
 ---
 
 ## Author & Credit
