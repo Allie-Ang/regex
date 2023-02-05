@@ -48,12 +48,16 @@ This Regex Expression validates the users IP address.
 >Matches any one of the enclosed characters. You can specify a range of characters by using a hyphen, but if the hyphen appears as the first or last character enclosed in the square brackets, it is taken as a literal hyphen to be included in the character class as a normal character.
 
 ### **Flags**
+>When specified, these flags change the default match behavor of the RegExp object. Performs a global match, finding all matches rather than just the first. Makes matches case-insensitive. Matches both uppercase and lowercase.
 
 ### **Grouping and Capturing**
+>Capturing groups are a way to treat multiple characters as a single unit. They are created by placing the characters to be grouped inside a set of parentheses. For example, the regular expression (dog) creates a single group containing the letters "d" "o" and "g" .
 
 ### **Bracket Expressions**
+>A bracket expression is either a matching list expression or a non-matching list expression. It consists of one or more expressions: ordinary characters, collating elements, collating symbols, equivalence classes, character classes, or range expressions.
 
 ### **Greedy and Lazy Match**
+>'Greedy' means match longest possible string. 'Lazy' means match shortest possible string
 
 ### **Boundaries**
 
