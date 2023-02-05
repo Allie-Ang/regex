@@ -5,3 +5,5 @@ For example, the following regular expression can be used to verify that user in
 ```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/```</br>
 
 Each component of this regex has a unique responsibility to make sure that a user enters an email address that begins with an unspecified number of characters preceding the @ symbol, followed by a domain.
+
+**Please click ont he git file to open tutorial.**
