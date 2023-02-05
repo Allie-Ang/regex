@@ -56,7 +56,8 @@ This Regex Expression is for quote matching with escape.
 
 > Capturing groups are a way to treat multiple characters as a single unit. They are created by placing the characters to be grouped inside a set of parentheses. For example, the regular expression (dog) creates a single group containing the letters "d" "o" and "g" .
 
-    Match a single character present in the list below. matches a single character in the list "' (case sensitive)
+    Match a single character present in the list below. 
+    Matches a single character in the list "' (case sensitive)
 
 `(["'])`((?:(?=(?:\\)_)\\.|.)_?)\1
 
