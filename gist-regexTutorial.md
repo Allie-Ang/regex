@@ -6,9 +6,9 @@
 
 ## Example
 
-#### `/\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}/g`
+#### `/(["'])((?:(?=(?:\\)*)\\.|.)*?)\1/gm`
 
-This Regex Expression validates the users IP address.
+This Regex Expression is for quote matching with escape.
 
 ## Table of Contents
 
