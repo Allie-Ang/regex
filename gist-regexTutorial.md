@@ -51,6 +51,7 @@ This Regex Expression is for quote matching with escape.
 ### **Flags**
 
 > When specified, these flags change the default match behavor of the RegExp object. Performs a global match, finding all matches rather than just the first. Makes matches case-insensitive. Matches both uppercase and lowercase.
+
     Global Pattern Flags: global. All matches (don't return after first match)
 /(["'])((?:(?=(?:\\)*)\\.|.)*?)\1/`g`m
 
