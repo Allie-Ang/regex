@@ -51,6 +51,8 @@ This Regex Expression is for quote matching with escape.
 ### **Flags**
 
 > When specified, these flags change the default match behavor of the RegExp object. Performs a global match, finding all matches rather than just the first. Makes matches case-insensitive. Matches both uppercase and lowercase.
+    Global Pattern Flags: global. All matches (don't return after first match)
+/(["'])((?:(?=(?:\\)*)\\.|.)*?)\1/`g`m
 
 ### **Grouping and Capturing**
 
@@ -58,12 +60,12 @@ This Regex Expression is for quote matching with escape.
 
     Match a single character present in the list below. 
     Matches a single character in the list "' (case sensitive)
-`(["'])`((?:(?=(?:\\)_)\\.|.)_?)\1
+`(["'])`((?:(?=(?:\\)_)\\.|.)_?)\1/gm
 
     Matches the previous token between zero and unlimited 
     times, as few times as possible, expanding as needed 
     (lazy)
-(["'])`((?:(?=(?:\\)_)\\.|.)_?)\1`
+(["'])`((?:(?=(?:\\)_)\\.|.)_?)\1/gm`
 
 ### **Bracket Expressions**
 
@@ -87,7 +89,7 @@ This Regex Expression is for quote matching with escape.
 > Lookaheads are the patterns that ask JavaScript to look ahead in the string to check for intended patterns in the string. Lookahead and Lookbehind are together referred to as Lookaround. Using Lookaheads we can easily capture a particular group of characters only if they appear before another set of characters
 
     Positive look ahead
-/(["'])((?:`(?=(?:\\)*)`\\.|.)*?)\1
+/(["'])((?:`(?=(?:\\)*)`\\.|.)*?)\1/gm
 
 ---
 
