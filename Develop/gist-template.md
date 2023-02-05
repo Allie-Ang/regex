@@ -1,13 +1,12 @@
-brb# Regex - Tutorial
+# Regex - Tutorial
 
 > Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the `exec()` and `test()` methods of RegExp, and with the `match()`, `matchAll()`, `replace()`, `replaceAll()`, `search()`, and `split()` methods of String. This chapter describes JavaScript regular expressions. 
 
-Source : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+    Source : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 ## Example
 #### `/\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}/g`
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This Regex Expression validates the users IP address.
 
 ## Table of Contents
 
@@ -22,7 +21,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
-
+----
 ## Regex Components
 
 ### Anchors
