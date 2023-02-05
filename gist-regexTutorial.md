@@ -55,6 +55,10 @@ This Regex Expression is for quote matching with escape.
     Global Pattern Flags: global. All matches (don't return after first match)
 /(["'])((?:(?=(?:\\)*)\\.|.)*?)\1/`g`m
 
+    Multi line. Causes ^ and $ to match the begin/end of each line (not only begin/end of string)
+    m modifier
+/(["'])((?:(?=(?:\\)*)\\.|.)*?)\1/g`m`
+
 ### **Grouping and Capturing**
 
 > Capturing groups are a way to treat multiple characters as a single unit. They are created by placing the characters to be grouped inside a set of parentheses. For example, the regular expression (dog) creates a single group containing the letters "d" "o" and "g" .
