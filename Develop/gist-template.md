@@ -1,10 +1,11 @@
-# Regex - Tutorial
+brb# Regex - Tutorial
 
 > Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the `exec()` and `test()` methods of RegExp, and with the `match()`, `matchAll()`, `replace()`, `replaceAll()`, `search()`, and `split()` methods of String. This chapter describes JavaScript regular expressions. 
 
 Source : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
-## Summary
+## Example
+#### `/\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}/g`
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
@@ -46,6 +47,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Look-ahead and Look-behind
 
-## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+----
+## Author & Credit
+Allison Ang
+GitHub - https://github.com/Allie-Ang <br>
+LinkedIn - https://www.linkedin.com/in/allison-ang-a4959093/ </br>
+Regex Expression - https://regex101.com/library/dT0vT3?filterFlavors=javascript&orderBy=MOST_POINTS&page=1&search= </br>
