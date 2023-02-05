@@ -58,8 +58,12 @@ This Regex Expression is for quote matching with escape.
 
     Match a single character present in the list below. 
     Matches a single character in the list "' (case sensitive)
-
 `(["'])`((?:(?=(?:\\)_)\\.|.)_?)\1
+
+    Matches the previous token between zero and unlimited 
+    times, as few times as possible, expanding as needed 
+    (lazy)
+(["'])`((?:(?=(?:\\)_)\\.|.)_?)\1`
 
 ### **Bracket Expressions**
 
